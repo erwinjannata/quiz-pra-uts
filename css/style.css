@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.bg-dark{
+    background-color: #000000!important;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+}
+
+section{
+    padding: 50px;
+}
+
+.imgBox img{
+    max-width: 70%;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to left,#00338F,#000000);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span{
+    color: #0081FD;
+}
+
+.banner h4{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner .btn{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0%;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.banner .btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+.container{
+    padding: 10px 10px;
+}
+
+.container h3{
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.container p{
+    line-height: 1.5em;
+}
+
+.heading{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.heading h2{
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+#foto{
+    max-width: 100%;
+    border-radius: 0%;
+    margin-bottom: 20px;
+}
+
+.about{
+    padding: 20px;
+}
+
+.contact{
+    background: linear-gradient(to left,#00338F,#000000);
+    padding: 30px;
+}
+
+.contact h4{
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.contact p{
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.socmed a{
+    margin-left: 10px;
+}
